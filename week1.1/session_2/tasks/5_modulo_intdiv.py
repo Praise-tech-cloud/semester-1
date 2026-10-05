@@ -22,5 +22,13 @@ for row in data:
     hours = 0
     minutes = 0
     
+    if minutes_late >= 60:
+        while minutes_late >= 60:
+            minutes = minutes_late - 60
+            hours += 1
+    elif hours >= 24:
+        while hours >= 24:
+            hours -= 24
+            days += 1
     print(f"Student {row[0]}: {days}D {hours}H {minutes}M")
 
