@@ -5,8 +5,19 @@
 # Ask a user to enter two numbers (one per input)
 
 # multiply those numbers together
-
+try:
+    num1 = int(input("enetr a number")) 
+except ValueError: 
+    print("that isnt a number")
+    exit()
 # print out the result
+try:
+    num2 = int(input("enetr a number")) 
+except ValueError: 
+    print("that isnt a number")
+    exit()
+total = num1 * num2
+print(f"The total is {total}")
 
 # There is an extra point available for validating that they entered numbers!
 # Add to your code so that if they entered something other than an integer it prints
