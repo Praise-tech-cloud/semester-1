@@ -8,13 +8,13 @@
 try:
     num1 = int(input("enetr a number")) 
 except ValueError: 
-    print("that isnt a number")
+    print("that is not a number")
     exit()
 # print out the result
 try:
     num2 = int(input("enetr a number")) 
 except ValueError: 
-    print("that isnt a number")
+    print("that is not a number")
     exit()
 total = num1 * num2
 print(f"The total is {total}")

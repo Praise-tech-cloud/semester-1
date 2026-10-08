@@ -10,16 +10,16 @@ You can complete this task on the worksheet pdf if you prefer.
 
 |     Command                 |     Explanation    |
 |-----------------------------|--------------------|
-|     pwd                     | shows the current location of the terminal |
-|     ls                      | |
-|     cd directory_name       | |
-|     cd ..                   | |
-|     cd -                    | |
-|     mkdir directory_name    | |
-|     touch filename          | |
-|     git status              | |
-|     git add -A              | |
-|     git commit -m ""        | |
-|     git push                | |
-|     git pull                | |
+|     pwd                     |shows the current location of the terminal |
+|     ls                      |lists everything in the current file
+|     cd directory_name       |moves into the directory_name
+|     cd ..                   |moves out of the current directory (up a level)
+|     cd -                    |goes back to the previous directory you were in
+|     mkdir directory_name    |makes a new empty named directory
+|     touch filename          |creates a file if it doesn't exist or updates it if it exists 
+|     git status              | Shows the programmer the current directory
+|     git add -A              | adds all unsaved changes
+|     git commit -m ""        |saves the staged changes as a commit 
+|     git push                |uploads the local commits to the remote repository 
+|     git pull                |Downloads changes from the remote repository and integrates them into your current branch
 
