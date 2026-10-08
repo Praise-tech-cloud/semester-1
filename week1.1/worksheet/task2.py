@@ -18,7 +18,7 @@ try:
 # print this out for the user with a suitable message.
 
 except ValueError:
-    print("that's not a integer")
+    print("Invalid amount")
     exit()
 
 # Calculate the total amount of money including interest (0.8% of the final annual amount) they will have saved in a year.
