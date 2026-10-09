@@ -6,18 +6,14 @@
 
 # multiply those numbers together
 try:
-    num1 = int(input("enetr a number")) 
+    num1 = int(input("enetr a number"))
+    num2 = int(input("enetr a number"))  
 except ValueError: 
-    print("that is not a number")
+    print("That is not a number")
     exit()
 # print out the result
-try:
-    num2 = int(input("enetr a number")) 
-except ValueError: 
-    print("that is not a number")
-    exit()
-total = num1 * num2
-print(f"The total is {total}")
+    total = num1 * num2
+    print(f"The total is {total}")
 
 # There is an extra point available for validating that they entered numbers!
 # Add to your code so that if they entered something other than an integer it prints
