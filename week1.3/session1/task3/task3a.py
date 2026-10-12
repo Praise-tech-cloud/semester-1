@@ -2,9 +2,13 @@
 
 i = 0
 
-while i < 20:
-    i = i + 1
-    print(i)
+while i <= 20:
+    if (i % 3) == 0:
+        i += 1
+        continue
+    else:
+        print(i)
+        i = i + 1
 
 # Add logic using continue so that multiples of 3 are not printed out
 # Hint: we discused operators such as % and // in recent weeks

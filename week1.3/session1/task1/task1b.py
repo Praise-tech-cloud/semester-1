@@ -8,5 +8,6 @@ while fruit:
 
 
 # Why does this work?
-
+# Because it removes the last item of the list
 # What features of Python does it rely on?
+#pop
