@@ -7,11 +7,11 @@ try:
         sys.exit("Error: Grade must be an integer between 0 and 100")
     
     if grade >= 70:
-        print(f" {grade} is a distinction")
+        print(f" {grade} is a Distinction")
     elif grade >= 40:
-        print(f" {grade} is a pass")
+        print(f" {grade} is a Pass")
     else:
-        print(f" {grade} is a fail")
+        print(f" {grade} is a Fail")
 
 except ValueError:
     sys.exit("Error: Grade must be an integer between 0 and 100")
