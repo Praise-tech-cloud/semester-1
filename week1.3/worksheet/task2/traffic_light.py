@@ -11,8 +11,28 @@ maxtime = int(input())  # read an integer number of steps (>0)
 
 state = "red"
 
-print(f"Time {systime:03} State {state}")
 
 # Simulate the traffic light system up to time=maxtime in 1-second steps
 
 # At the end of each step you should output the time and state using the statement on line 14
+
+counter = 0
+
+while systime <= maxtime:
+    
+    print(f"Time {systime:03} State {state}")
+    counter += 1
+    systime += 1
+    
+    if counter == states[state]:
+        counter = 0    
+        if state == "red":
+            state = "red_amber"
+        elif state == "red_amber":
+            state = "green"
+        elif state == "green":
+            state = "amber"
+        elif state == "amber":
+            state = "red"
+
+    
