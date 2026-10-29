@@ -33,7 +33,8 @@ class Point:
 
     # Implement a __str__() method here
 
-
+    def __str__(self):
+        
 class Circle:
     """
     A circle, with a radius and centre coordinates.
