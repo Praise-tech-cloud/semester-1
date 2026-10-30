@@ -19,6 +19,8 @@ def currency_converter(amount, from_currency, to_currency):
     }
 
     # your code here
+    if amount < 0:
+        return 0.0
     return amount * conversion_rate[from_currency][to_currency] 
     return None
 
