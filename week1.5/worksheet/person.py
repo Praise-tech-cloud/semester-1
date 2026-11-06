@@ -34,5 +34,6 @@ class Person:
         return "".join(word[0].upper() for word in self.name.split())
 
     def is_birthday(self):
+        """Returns the person's birthday"""
         today = date.today()
         return today.month == self.birth.month and today.day == self.birth.day
