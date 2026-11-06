@@ -30,8 +30,9 @@ class Person:
     # Implement methods initials() and is_birthday() here
     # (see README.md for further details)
     def initials(self):
+        """Returns the initials of the person"""
         return "".join(word[0].upper() for word in self.name.split())
 
     def is_birthday(self):
-        today == date.today()
+        today = date.today()
         return today.month == self.birth.month and today.day == self.birth.day
