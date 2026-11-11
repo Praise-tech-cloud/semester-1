@@ -15,3 +15,15 @@
 # story.txt - 290
 # story2.txt - 326
 # glasses.txt - 210
+
+file = input("give me one of the 3 file's names please:").lower()
+
+if file == "glasses" or file == "glasses.txt":
+    with open("path/to/glasses.txt", "r")
+    List = [for line in glasses
+
+elif file == "story" or file == "story.txt":
+    with open("path/to/story.txt", "r")
+
+elif file == "story2" or file == "story2.txt":
+    with open("path/to/glasses.txt", "r")
