@@ -11,11 +11,16 @@
 # and print these out in a human-readable format:
 # IP address 192.168.1.17 failed to login at 10:42:12 on 2024-10-20
 
-log_file = 'site.log'
+log_file = 'site.txt'
 with open(log_file, 'r') as file:
-    for line in file:
-        print(line)
+    List = [line.strip().split(",") for line in file]
 
+    New_List = [items for items in List for i in items if i == "POST"]
+    print(List)
+    for items in List:
+        for i in items:
+            if i == "401":
+                print(items)
 # Hints:
 # - Remember to handle file errors
 # - The first row is headers - you'll need to skip it

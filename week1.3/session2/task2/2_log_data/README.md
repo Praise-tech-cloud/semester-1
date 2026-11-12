@@ -10,7 +10,7 @@ This is useful for blocking disruptive IP addresses, tracking failed login attem
 2. Edit `log_data.py` to add lines to:
 
     - Open and read the content of `site.log`
-    - Fine all failed login attempts
+    - Fined all failed login attempts
     - Print the failed login attemps in the format 
     
         `IP address 192.168.1.17 failed to login at 10:42:12 on 2024-10-20`
