@@ -19,11 +19,28 @@
 file = input("give me one of the 3 file's names please:").lower()
 
 if file == "glasses" or file == "glasses.txt":
-    with open("path/to/glasses.txt", "r")
-    List = [for line in glasses
+    with open("glasses.txt", "r") as infile:
+        List = [line.strip().split()for line in infile]   
+        wordcount = 0
+        for i in List:
+            for ii in i:
+                wordcount += 1
+        print(f"{wordcount} words in the glasses file")
 
 elif file == "story" or file == "story.txt":
-    with open("path/to/story.txt", "r")
+    with open("story.txt", "r") as infile:
+        List = [line.strip().split()for line in infile]   
+        wordcount = 0
+        for i in List:
+            for ii in i:
+                wordcount += 1
+        print(f"{wordcount} words in the story file")
 
 elif file == "story2" or file == "story2.txt":
-    with open("path/to/glasses.txt", "r")
+    with open("story2.txt", "r") as infile:
+        List = [line.strip().split()for line in infile]   
+        wordcount = 0
+        for i in List:
+            for ii in i:
+                wordcount += 1
+        print(f"{wordcount} words in the story2 file")

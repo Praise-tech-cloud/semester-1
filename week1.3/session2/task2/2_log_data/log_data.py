@@ -11,6 +11,10 @@
 # and print these out in a human-readable format:
 # IP address 192.168.1.17 failed to login at 10:42:12 on 2024-10-20
 
+log_file = 'site.log'
+with open(log_file, 'r') as file:
+    for line in file:
+        print(line)
 
 # Hints:
 # - Remember to handle file errors
