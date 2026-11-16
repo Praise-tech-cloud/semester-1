@@ -15,12 +15,13 @@ log_file = 'site.txt'
 with open(log_file, 'r') as file:
     List = [line.strip().split(",") for line in file]
 
-    New_List = [items for items in List for i in items if i == "POST"]
-    print(List)
-    for items in List:
-        for i in items:
-            if i == "401":
-                print(items)
+    New_List = [items for items in List for i in items if i == "401"]
+    print(New_List)
+    print(f"IP adress {New_List[i,2]}")
+    #for items in List:
+     #   for i in items:
+      #      if i == "401":
+       #         print(items)
 # Hints:
 # - Remember to handle file errors
 # - The first row is headers - you'll need to skip it
