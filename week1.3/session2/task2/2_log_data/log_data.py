@@ -17,7 +17,13 @@ with open(log_file, 'r') as file:
 
     New_List = [items for items in List for i in items if i == "401"]
     print(New_List)
-    print(f"IP adress {New_List[i,2]}")
+    
+    one_List = [line.split(",") for line in New_List]
+    print(one_List)
+    
+    #for i in New_List:
+     #   print(i.strip().split(","))
+        #print(f"IP adress {New_List[i,2]}")
     #for items in List:
      #   for i in items:
       #      if i == "401":

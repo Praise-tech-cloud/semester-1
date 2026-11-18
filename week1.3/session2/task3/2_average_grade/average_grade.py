@@ -2,13 +2,13 @@
 
 # Open 'student_data.csv' to read each student's grades
 # hint: skip the header row with data[1:]
-
-
+with open("student_data.csv", "r") as file:
+    
 # Read each student's grades and calculate their average grade
 # hint: CSV data comes as strings, convert grade columns to int() for maths
 # hint: student_data.csv has columns: ID, Name, Mathematics, Science, History
 # hint: average = (maths + science + history) / 3
-
+    for 
 
 # Open a file called 'report.txt'
 # Write each student's name and their average grade to the report
