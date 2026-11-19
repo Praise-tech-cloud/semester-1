@@ -18,7 +18,6 @@ def most_frequent_string(votes):
     """
     dic = {}
 
-
     if not votes:
         return None
 

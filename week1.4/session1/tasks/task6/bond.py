@@ -11,8 +11,8 @@ def isBond(intList):
     otherwise. The numbers do not need to be consecutive, but must appear
     in the specified order.
     """
-    for i in range(len(intList)-1):
-        if intList[i] == 0:
+    for i in intList:
+        if i == 0:
             print(i)
             return True
     # pass is a Python keyword used as a placeholder for future code,
