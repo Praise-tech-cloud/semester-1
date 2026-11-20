@@ -1,7 +1,7 @@
 # Week 1.3, Session 1: For loop equivalent to a list comprehension
 
 animals = ['dog','cat','hamster','goldfish']
-
+#comprehension of the list of animals
 not_fish = [item for item in animals if item != 'goldfish']
 
 print(not_fish)

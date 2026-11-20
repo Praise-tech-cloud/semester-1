@@ -1,7 +1,7 @@
 # Week 1.3, Session 1: Task 1a
 
 i = 0
-
+#itarates to to 20
 while i < 21:
 	print(i)
 	i = i + 1
